@@ -402,7 +402,7 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/img-hero/Dark-bg-mobile.jpg);
+    url(../images/img-hero/Dark-bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -416,7 +416,7 @@ header {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/img-hero/Dark-bg-tablet.jpg);
+      url(../images/img-hero/Dark-bg-tablet.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -431,7 +431,7 @@ header {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/img-hw-04/people-office-1.jpg);
+      url(../images/img-hw-04/people-office-1.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
