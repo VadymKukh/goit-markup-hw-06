@@ -402,11 +402,41 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-hw-04/people-office-1.jpg);
+    url(/images/img-hero/Dark-bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .section-main-title {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/img-hero/Dark-bg-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section-main-title {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/img-hw-04/people-office-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+  }
 }
 
 .main-button {
