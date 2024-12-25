@@ -47,6 +47,10 @@ img {
   max-width: 100%;
 }
 
+input {
+  outline: none;
+}
+
 .disp {
   display: none;
 }
@@ -1072,7 +1076,7 @@ footer {
     max-width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    opacity: 0.3;
+    opacity: 1;
     background-color: transparent;
     font-weight: 400;
     font-size: 12px;
@@ -1086,13 +1090,11 @@ footer {
     color: #ffffff;
   }
 
-  .form-foot input::placeholder {
+  .form-foot label input::placeholder {
     color: #ffffff;
     opacity: 1;
   }
 }
-
-/* modal head */
 
 /* modal overlay */
 
@@ -1352,4 +1354,11 @@ label .icon-chbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+@media screen and (min-width: 1158px) {
+  footer .inp-foot-dscr {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
 }
